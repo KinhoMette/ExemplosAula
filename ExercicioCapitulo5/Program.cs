@@ -2,11 +2,23 @@
 
 namespace ExercicioCapitulo5
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float peso = 0;
+            float altura = 0;
+            float imc = 0;
+
+            Console.WriteLine("Digite seu peso:");
+            peso = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite sua altura:");
+            altura = float.Parse(Console.ReadLine());
+
+            imc = (peso / (altura * altura));
+
+            Console.WriteLine(imc);
         }
     }
 }
