@@ -21,8 +21,8 @@ namespace ExerciciosCapitulo8
 
         private static void Exercicio2()
         {
-            var numero = 0;
             var contador = 0;
+            int numero;
             do
             {
                 Console.WriteLine("Digite um número par");
