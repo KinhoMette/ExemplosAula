@@ -25,6 +25,8 @@ namespace CorrijaMe
             var primeiroNome = RetornaPrimeiroNome(listaNomes);
 
             Console.WriteLine("Este é o primeiro nome da lista" + primeiroNome.ToUpper());
+
+            Console.WriteLine("Este é o ultimo nome da lista" + listaNomes[2]);
         }
 
         public static string ConverteIdadeParaTexto(int idade)
